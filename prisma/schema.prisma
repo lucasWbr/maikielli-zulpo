@@ -1,0 +1,79 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model HomeSection {
+  id        String   @id @default(uuid())
+  name      String
+  title     String
+  text      String
+  imageUrl  String?
+  imageAlt  String?
+}
+
+model GeneralInfo {
+  id             String   @id @default(uuid())
+  phone          String
+  messageContact String
+  totalArea      String
+  totalClients   String
+  totalProjects  String
+}
+
+model Collaborator {
+  id          String   @id @default(uuid())
+  name        String
+  role        String
+  text        String
+  imageUrl    String
+  imageAlt    String
+  socialMedia SocialMedia[]
+}
+
+model SocialMedia {
+  id             String   @id @default(uuid())
+  name           String
+  url            String
+  Collaborator   Collaborator @relation(fields: [collaboratorId], references: [id])
+  collaboratorId String
+}
+
+model Services {
+  id               String   @id @default(uuid())
+  name             String
+  textShort        String
+  textLong         String
+  imageUrl         String
+  imageAlt         String
+  icon             String   @default("default")
+}
+
+model Project {
+  id          String   @id @default(uuid())
+  name        String
+  text        String
+  imageUrl    String
+  imageAlt    String
+  client      Client  @relation(fields: [clientId], references: [id])
+  clientId    String
+}
+
+model Client {
+  id          String   @id @default(uuid())
+  name        String
+  imageUrl    String
+  imageAlt    String
+  projects    Project[]
+}
