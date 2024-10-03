@@ -103,7 +103,7 @@ async function Home() {
         title={titleClients}
         text={textClients}
         imageUrl={imageUrlClients ? imageUrlClients : ""}
-        imageAlt={imageAltAbout ? imageAltAbout : ""}
+        imageAlt={imageAltClients ? imageAltClients : ""}
         href={nameClients}
       />
     </div>

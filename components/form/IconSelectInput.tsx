@@ -43,7 +43,7 @@ function IconSelectInput({ name, label, placeholder, icon }: FormInputProps) {
             </SelectTrigger>
             <SelectContent>
               {icons.map((icon) => (
-                <SelectItem value={icon}>
+                <SelectItem value={icon} key={icon}>
                   <Icons type={icon} className="h-6 w-6" />
                 </SelectItem>
               ))}

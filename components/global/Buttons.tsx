@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Icons from "./Icons";
+import { MouseEventHandler } from "react";
 
 function Buttons({
   type,
@@ -15,7 +16,7 @@ function Buttons({
   message?: string;
   href?: string;
   classes?: string;
-  click?: any;
+  click?: MouseEventHandler<HTMLButtonElement>;
 }) {
   switch (type) {
     case "whatsapp":

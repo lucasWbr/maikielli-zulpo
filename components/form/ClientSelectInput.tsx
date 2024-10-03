@@ -29,7 +29,9 @@ async function ClientSelectInput({ name, label, placeholder }: FormInputProps) {
             </SelectTrigger>
             <SelectContent>
               {clients.map((client) => (
-                <SelectItem value={client.id}>{client.name}</SelectItem>
+                <SelectItem value={client.id} key={client.id}>
+                  {client.name}
+                </SelectItem>
               ))}
             </SelectContent>
           </Select>

@@ -1,5 +1,3 @@
-import Underline from "@/components/global/Underline";
-
 function SectionTitle({ title }: { title: string }) {
   const titleSection = title.split(" ");
 

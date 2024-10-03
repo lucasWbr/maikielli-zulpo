@@ -7,14 +7,6 @@ import {
   TableRow,
   TableCaption,
 } from "@/components/ui/table";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Icons from "@/components/global/Icons";
 import { fetchClients } from "@/utils/actions";

@@ -4,7 +4,6 @@ import ImageInputContainer from "@/components/form/ImageInputContainer";
 import { SubmitButton } from "@/components/form/Buttons";
 import { updateProjectImageAction, updateProjectAction } from "@/utils/actions";
 import TextAreaInput from "@/components/form/TextAreaInput";
-import ClientSelectInput from "@/components/form/ClientSelectInput";
 import { fetchProjectById } from "@/utils/actions";
 import { Project } from "@prisma/client";
 

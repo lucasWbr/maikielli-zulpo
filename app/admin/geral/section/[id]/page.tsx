@@ -11,7 +11,6 @@ async function SectionEditPage({ params }: { params: { id: string } }) {
   const { id } = params;
   const section = await fetchSection(id);
   const {
-    name: name,
     title: title,
     text: text,
     imageUrl: imageUrl,

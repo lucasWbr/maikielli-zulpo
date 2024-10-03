@@ -11,12 +11,10 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 import Icons from "@/components/global/Icons";
 import {
   fetchGeneralInfo,
