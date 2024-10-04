@@ -10,7 +10,7 @@ function Counter({
   totalProjects: string;
 }) {
   return (
-    <section className="h-[25vh] bg-clrPrimary4 content-center hidden md:flex md:items-center">
+    <section className="h-[25vh] bg-clrPrimary4 content-center flex items-center">
       <Container className="flex w-[85vw] mx-auto">
         <CounterContent
           totalArea={totalArea}

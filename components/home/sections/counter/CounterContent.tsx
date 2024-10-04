@@ -9,7 +9,7 @@ function CounterContent({
   totalProjects: string;
 }) {
   return (
-    <div className="flex mx-auto w-[85vw] gap-2 justify-between">
+    <div className="mx-auto w-[85vw] justify-between grid grid-cols-3 gap-1">
       <CounterCards number={totalClients} text="Clientes Satisfeitos" />
       <CounterCards number={totalProjects} text="Projetos realizados" />
       <CounterCards

@@ -11,7 +11,7 @@ function SingleService({
   textShort: string;
 }) {
   return (
-    <Card className="mt-8 w-[60vw] h-[40vh] md:w-[25vw] xl:w-[20vw] mx-auto text-clrPrimary4 shadow-md hover:bg-clrPrimary5 hover:text-white ease-in-out duration-300 text-center overflow-hidden">
+    <Card className="mt-8 w-[300px] md:w-full h-[300px] max-w-[300px] mx-auto text-clrPrimary4 shadow-md hover:bg-clrPrimary5 hover:text-white ease-in-out duration-300 text-center overflow-hidden">
       <CardHeader>
         <CardTitle>
           <Icons type={icon} className="w-8 h-8 mx-auto mb-2" />
