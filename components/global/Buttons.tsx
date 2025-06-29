@@ -28,7 +28,7 @@ function Buttons({
           asChild
         >
           <Link target="_Blank" href={`https://wa.me/${phone}?text=${message}`}>
-            <Icons type="whatsapp" className="w-6 h-6" />
+            <Icons name="whatsapp" className="w-6 h-6" />
             <span className="uppercase font-bold font-sans">
               Entre em contato
             </span>
@@ -42,7 +42,7 @@ function Buttons({
           size="icon"
           className="md:hidden text-clrPrimary3"
         >
-          <Icons type="hamburger-menu" className="w-6 h-6" />
+          <Icons name="hamburger-menu" className="w-6 h-6" />
         </Button>
       );
     case "saiba-mais":
@@ -66,7 +66,7 @@ function Buttons({
           className="md:hidden text-clrPrimary3"
           onClick={click}
         >
-          <Icons type="plus" className={`w-6 h-6${classes}`} />
+          <Icons name="plus" className={`w-6 h-6${classes}`} />
         </Button>
       );
 

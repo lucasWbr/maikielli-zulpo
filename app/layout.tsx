@@ -3,14 +3,15 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
-import Providers from "@/app/providers";
-import { ClerkProvider } from "@clerk/nextjs";
+import FloatingWhatsApp from "@/components/global/FloatingWhatsApp";
+import { fetchGeneralInfo, fetchSocialMediaGeneral } from "@/utils/actions";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -18,29 +19,31 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Maikielli Zulpo Engenharia",
-  description:
-    "Escritório de engenharia Maikielli Zulpo, projetos e laudos, localizado em Carazinho, RS.",
+  title: "Maikielli Zulpo - Engenheira Ambiental e de Segurança",
+  description: "Especialista em consultoria ambiental e segurança do trabalho",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const generalInfo = await fetchGeneralInfo();
+  const socialMediaData = await fetchSocialMediaGeneral();
+
   return (
-    <ClerkProvider>
-      <html lang="pt-br">
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
-        >
-          <Providers>
-            <Navbar />
-            {children}
-            <Footer />
-          </Providers>
-        </body>
-      </html>
-    </ClerkProvider>
+    <html lang="pt-BR">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        <Navbar />
+        {children}
+        <Footer />
+        <FloatingWhatsApp
+          generalInfo={generalInfo[0]}
+          socialMedia={socialMediaData?.socialMedia || []}
+        />
+      </body>
+    </html>
   );
 }

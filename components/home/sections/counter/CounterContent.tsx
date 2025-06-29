@@ -1,20 +1,26 @@
 import CounterCards from "./CounterCards";
+
 function CounterContent({
-  totalArea,
   totalClients,
-  totalProjects,
+  approvedArea,
 }: {
-  totalArea: string;
   totalClients: string;
-  totalProjects: string;
+  approvedArea: string;
 }) {
   return (
-    <div className="mx-auto w-[85vw] justify-between grid grid-cols-3 gap-1">
-      <CounterCards number={totalClients} text="Clientes Satisfeitos" />
-      <CounterCards number={totalProjects} text="Projetos realizados" />
+    <div className="mx-auto w-[85vw] justify-center grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
       <CounterCards
-        number={totalArea}
-        text="metros quadrados de área aprovados"
+        number={totalClients}
+        text="Clientes Satisfeitos"
+        prefix=""
+        suffix=""
+      />
+      <CounterCards
+        number={approvedArea}
+        text="m² de Área Aprovada"
+        prefix=""
+        suffix=""
+        isArea={true}
       />
     </div>
   );

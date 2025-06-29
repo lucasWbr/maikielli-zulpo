@@ -1,0 +1,215 @@
+{
+  "homeSections": [
+    {
+      "id": "hero-1",
+      "name": "hero",
+      "title": "Maikielli Zulpo",
+      "subtitle": "Engenheira ambiental e de Segurança do trabalho",
+      "crea": "CREA/RS 184373",
+      "text": "",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&crop=center",
+      "imageAlt": "Engenharia ambiental e segurança"
+    },
+    {
+      "id": "about-1",
+      "name": "about",
+      "title": "Quem Sou",
+      "text": "Com sólida formação e experiência prática, ofereço soluções especializadas em engenharia ambiental e segurança do trabalho.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&crop=center",
+      "imageAlt": "Profissional trabalhando"
+    },
+    {
+      "id": "services-1",
+      "name": "services",
+      "title": "Meus Serviços",
+      "text": "Oferço uma gama completa de serviços em engenharia ambiental e segurança do trabalho."
+    },
+    {
+      "id": "clients-1",
+      "name": "clients",
+      "title": "Clientes Atendidos",
+      "text": "Empresas que confiam em meu trabalho e expertise técnica.",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop&crop=center",
+      "imageAlt": "Parceria e confiança"
+    }
+  ],
+  "generalInfo": [
+    {
+      "id": "general-1",
+      "phone": "+55 (54) 99648-0621",
+      "email": "maikiellizulpo@gmail.com",
+      "messageContact": "Entre em contato para consultoria especializada",
+      "totalClients": "100",
+      "totalProjects": "100+",
+      "approvedArea": "201289.54"
+    }
+  ],
+  "collaborators": [
+    {
+      "id": "collab-1",
+      "name": "Maikielli Zulpo",
+      "role": "Engenheira Ambiental | Engenheira de Segurança no Trabalho",
+      "crea": "CREA RS 184373",
+      "company": "Responsável Técnica – Maikielli Zulpo Ltda",
+      "cnpj": "CNPJ: 51.733.580/0001-67",
+      "experience": "Mais de 10 anos",
+      "text": "Com mais de 10 anos de experiência prática e acadêmica, Maikielli Zulpo atua com foco na sustentabilidade, responsabilidade técnica e capacitação profissional, garantindo a conformidade com normas ambientais e de segurança do trabalho.",
+      "education": [
+        {
+          "degree": "Mestrado em Ciências Ambientais",
+          "institution": "Universidade de Passo Fundo (UPF)",
+          "year": "2020"
+        },
+        {
+          "degree": "Especialização em Engenharia de Segurança do Trabalho",
+          "institution": "Universidade de Passo Fundo (UPF)",
+          "year": "2016"
+        },
+        {
+          "degree": "Graduação em Engenharia Ambiental",
+          "institution": "Faculdade de Engenharia e Arquitetura – UPF",
+          "year": "2011"
+        }
+      ],
+      "experience_details": [
+        {
+          "title": "Engenheira Ambiental e de Segurança no Trabalho Autônoma",
+          "location": "Carazinho/RS",
+          "period": "Desde abril de 2015",
+          "activities": [
+            "Elaboração e acompanhamento de projetos ambientais",
+            "Desenvolvimento de planos de prevenção e proteção contra incêndios (PPCI)",
+            "Treinamentos em segurança do trabalho, meio ambiente e legislação",
+            "Responsável técnica pela empresa Maikielli Zulpo Ltda"
+          ]
+        },
+        {
+          "title": "Professora – Centro de Ensino Riograndense",
+          "location": "Sarandi/RS",
+          "period": "Março/2017 – Março/2024",
+          "activities": [
+            "Disciplinas nos cursos de Técnico em Segurança do Trabalho e Engenharia Civil",
+            "Atuação em sala de aula com foco em legislação, segurança e sustentabilidade"
+          ]
+        },
+        {
+          "title": "Engenheira Ambiental – R2 Assessoria Ambiental",
+          "location": "Sarandi/RS",
+          "period": "Março/2012 – Março/2015",
+          "activities": [
+            "Atuação em licenciamento ambiental, incluindo projetos rurais",
+            "Gestão e gerenciamento de resíduos sólidos",
+            "Assessoria técnica para cooperativas e empreendimentos diversos"
+          ]
+        }
+      ],
+      "imageUrl": "/Foto-Perfil.png",
+      "imageAlt": "Maikielli Zulpo - Engenheira Ambiental e de Segurança"
+    }
+  ],
+  "socialMedia": [
+    {
+      "id": "social-1",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/maikielli-zulpo-7164b159/",
+      "collaboratorId": "collab-1"
+    },
+    {
+      "id": "social-2",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/maikielliengenheira/",
+      "collaboratorId": "collab-1"
+    },
+    {
+      "id": "social-3",
+      "name": "Facebook",
+      "url": "https://www.facebook.com/maikielliengenheira/?locale=pt_BR",
+      "collaboratorId": "collab-1"
+    }
+  ],
+  "services": [
+    {
+      "id": "service-1",
+      "name": "Licenciamento Ambiental (LP, LI e LO)",
+      "textShort": "Licenças Prévia, de Instalação e de Operação para empreendimentos",
+      "textLong": "O Licenciamento Ambiental é um procedimento obrigatório para que empreendimentos e atividades com potencial de causar impactos ao meio ambiente possam ser autorizados a funcionar. É composto por três etapas principais:\n\nLP - Licença Prévia: Concedida na fase de planejamento, atesta a viabilidade ambiental e define requisitos para as próximas fases.\n\nLI - Licença de Instalação: Autoriza o início da construção do empreendimento, conforme o projeto aprovado.\n\nLO - Licença de Operação: Permite o funcionamento da atividade, desde que cumpridas todas as exigências das fases anteriores.",
+      "imageUrl": "https://images.unsplash.com/photo-1547658719-da2b51169166?w=800&h=600&fit=crop&crop=center",
+      "imageAlt": "Licenciamento ambiental",
+      "icon": "fileContract"
+    },
+    {
+      "id": "service-2",
+      "name": "Plano de Gerenciamento de Resíduos (PGRS)",
+      "textShort": "Gestão adequada de resíduos sólidos conforme PNRS",
+      "textLong": "O Plano de Gerenciamento de Resíduos Sólidos é um documento técnico que estabelece as práticas adequadas para o manejo dos resíduos gerados em um empreendimento (industriais, de serviços de saúde, construção civil, etc.). Inclui:\n\n• Classificação dos resíduos (perigosos ou não perigosos)\n• Medidas para minimização, segregação, armazenamento, transporte e destinação final\n• Atende à Política Nacional de Resíduos Sólidos (Lei 12.305/2010)",
+      "imageUrl": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&h=600&fit=crop&crop=center",
+      "imageAlt": "Gerenciamento de resíduos",
+      "icon": "recycle"
+    },
+    {
+      "id": "service-3",
+      "name": "Plano de Recuperação de Áreas Degradadas (PRAD)",
+      "textShort": "Restauração ecológica de áreas impactadas",
+      "textLong": "O PRAD é um plano técnico exigido quando há degradação ambiental (como desmatamento, mineração ou erosão). Seu objetivo é:\n\n• Diagnosticar os danos ambientais\n• Estabelecer ações de recuperação (revegetação, estabilização do solo, restauração da biodiversidade)\n• Monitorar os resultados da recuperação ao longo do tempo\n\nÉ essencial para recompor a funcionalidade ecológica de áreas impactadas.",
+      "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop&crop=center",
+      "imageAlt": "Recuperação de áreas degradadas",
+      "icon": "seedling"
+    },
+    {
+      "id": "service-4",
+      "name": "Plano de Prevenção e Proteção Contra Incêndios (PPCI)",
+      "textShort": "Segurança contra incêndios em edificações",
+      "textLong": "O PPCI é um plano obrigatório para edificações e áreas de risco que visa garantir a segurança contra incêndios. Deve conter:\n\n• Saídas de emergência, sinalização e iluminação de emergência\n• Sistemas de alarme e combate ao fogo (extintores, hidrantes, sprinklers)\n• Treinamento de brigada de incêndio\n• É aprovado pelo Corpo de Bombeiros estadual",
+      "imageUrl": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=800&h=600&fit=crop&crop=center",
+      "imageAlt": "Prevenção contra incêndios",
+      "icon": "fireExtinguisher"
+    },
+    {
+      "id": "service-5",
+      "name": "Laudos Técnicos (Ambiental e Segurança)",
+      "textShort": "Análises técnicas especializadas e pareceres profissionais",
+      "textLong": "Laudos técnicos são documentos elaborados por profissionais habilitados com análises, medições e pareceres especializados. Alguns exemplos:\n\n• Laudo de Insalubridade e Periculosidade: Avalia ambientes de trabalho para verificar exposição a agentes nocivos\n• Laudo de Ruído Ambiental: Mede níveis de ruído para verificar conformidade com normas ambientais\n• Laudo de Qualidade do Ar ou da Água: Verifica contaminações e padrões de qualidade\n• Laudo de Passivo Ambiental: Avalia contaminações existentes em áreas",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&h=600&fit=crop&crop=center",
+      "imageAlt": "Laudos técnicos",
+      "icon": "clipboardCheck"
+    }
+  ],
+  "clients": [
+    {
+      "id": "client-1",
+      "name": "Construtora ABC",
+      "imageUrl": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=300&fit=crop&crop=center",
+      "imageAlt": "Logo Construtora ABC"
+    },
+    {
+      "id": "client-2",
+      "name": "Indústria XYZ",
+      "imageUrl": "https://images.unsplash.com/photo-1541746972996-4e0b0f93e586?w=300&h=300&fit=crop&crop=center",
+      "imageAlt": "Logo Indústria XYZ"
+    },
+    {
+      "id": "client-3",
+      "name": "EcoTech Solutions",
+      "imageUrl": "https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=300&h=300&fit=crop&crop=center",
+      "imageAlt": "Logo EcoTech Solutions"
+    },
+    {
+      "id": "client-4",
+      "name": "Green Energy Corp",
+      "imageUrl": "https://images.unsplash.com/photo-1497436072909-f5e4be1707d1?w=300&h=300&fit=crop&crop=center",
+      "imageAlt": "Logo Green Energy Corp"
+    },
+    {
+      "id": "client-5",
+      "name": "SafeWork Ltda",
+      "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=300&fit=crop&crop=center",
+      "imageAlt": "Logo SafeWork Ltda"
+    },
+    {
+      "id": "client-6",
+      "name": "AmbientalTech",
+      "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=300&fit=crop&crop=center",
+      "imageAlt": "Logo AmbientalTech"
+    }
+  ]
+}

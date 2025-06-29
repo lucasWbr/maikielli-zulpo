@@ -8,52 +8,19 @@ export const linksNav = [
   {
     id: 2,
     href: "/about",
-    label: "Quem Somos",
-    icon: "about",
+    label: "Sobre",
+    icon: "user",
   },
   {
+    id: 3,
     href: "/services",
     label: "Serviços",
-    icon: "services",
+    icon: "briefcase",
   },
   {
-    href: "/projects",
-    label: "Projetos",
-    icon: "projects",
-  },
-  {
-    href: "/clients",
-    label: "Clientes",
-    icon: "clients",
-  },
-];
-
-export const linksDashboard = [
-  {
-    id: 1,
-    href: "/admin/geral",
-    label: "Geral",
-    icon: "home",
-  },
-  {
-    id: 2,
-    href: "/admin/about",
-    label: "Quem Somos",
-    icon: "about",
-  },
-  {
-    href: "/admin/services",
-    label: "Serviços",
-    icon: "services",
-  },
-  {
-    href: "/admin/projects",
-    label: "Projetos",
-    icon: "projects",
-  },
-  {
-    href: "/admin/clients",
-    label: "Clientes",
-    icon: "clients",
+    id: 4,
+    href: "#contact",
+    label: "Contato",
+    icon: "messageCircle",
   },
 ];

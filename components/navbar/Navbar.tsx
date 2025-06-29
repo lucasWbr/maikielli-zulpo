@@ -1,7 +1,6 @@
 import Container from "@/components/global/Container";
 import Logo from "@/components/navbar/Logo";
 import NavLinks from "@/components/navbar/NavLinks";
-import WAButton from "./WAButton";
 import NavSheet from "./navbarSheet/NavSheet";
 
 function Navbar() {
@@ -10,8 +9,9 @@ function Navbar() {
       <Container>
         <nav className="h-20 flex items-center justify-between">
           <Logo />
-          <NavLinks direction="row"></NavLinks>
-          <WAButton />
+          <div className="flex-1 flex justify-center">
+            <NavLinks direction="row" />
+          </div>
           <NavSheet />
         </nav>
       </Container>

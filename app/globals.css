@@ -58,6 +58,16 @@
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     --max-width: 1170px;
+    --clrPrimary1: #0a0f0d;
+    --clrPrimary2: #1a2922;
+    --clrPrimary3: #2a4437;
+    --clrPrimary4: #3a5e4c;
+    --clrPrimary5: #4a7861;
+    --clrPrimary6: #5a9376;
+    --clrPrimary7: #6aad8b;
+    --clrPrimary8: #7ac8a0;
+    --clrPrimary9: #8ae2b5;
+    --clrPrimary10: #f0f5f2;
   }
 
   .dark {
@@ -275,4 +285,193 @@
   -webkit-transition: var(--transition);
   transition: var(--transition);
   opacity: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--clrPrimary1);
+  background: white;
+  font-family: "Gisha", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Gisha";
+  src: url("./fonts/gisha.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gisha";
+  src: url("./fonts/gishabd.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Custom Tailwind Classes */
+.clrPrimary1 {
+  color: var(--clrPrimary1);
+}
+
+.clrPrimary2 {
+  color: var(--clrPrimary2);
+}
+
+.clrPrimary3 {
+  color: var(--clrPrimary3);
+}
+
+.clrPrimary4 {
+  color: var(--clrPrimary4);
+}
+
+.clrPrimary5 {
+  color: var(--clrPrimary5);
+}
+
+.clrPrimary6 {
+  color: var(--clrPrimary6);
+}
+
+.clrPrimary7 {
+  color: var(--clrPrimary7);
+}
+
+.clrPrimary8 {
+  color: var(--clrPrimary8);
+}
+
+.clrPrimary9 {
+  color: var(--clrPrimary9);
+}
+
+.clrPrimary10 {
+  color: var(--clrPrimary10);
+}
+
+.bg-clrPrimary1 {
+  background-color: var(--clrPrimary1);
+}
+
+.bg-clrPrimary2 {
+  background-color: var(--clrPrimary2);
+}
+
+.bg-clrPrimary3 {
+  background-color: var(--clrPrimary3);
+}
+
+.bg-clrPrimary4 {
+  background-color: var(--clrPrimary4);
+}
+
+.bg-clrPrimary5 {
+  background-color: var(--clrPrimary5);
+}
+
+.bg-clrPrimary6 {
+  background-color: var(--clrPrimary6);
+}
+
+.bg-clrPrimary7 {
+  background-color: var(--clrPrimary7);
+}
+
+.bg-clrPrimary8 {
+  background-color: var(--clrPrimary8);
+}
+
+.bg-clrPrimary9 {
+  background-color: var(--clrPrimary9);
+}
+
+.bg-clrPrimary10 {
+  background-color: var(--clrPrimary10);
+}
+
+.border-clrPrimary1 {
+  border-color: var(--clrPrimary1);
+}
+
+.border-clrPrimary2 {
+  border-color: var(--clrPrimary2);
+}
+
+.border-clrPrimary3 {
+  border-color: var(--clrPrimary3);
+}
+
+.border-clrPrimary4 {
+  border-color: var(--clrPrimary4);
+}
+
+.border-clrPrimary5 {
+  border-color: var(--clrPrimary5);
+}
+
+.border-clrPrimary6 {
+  border-color: var(--clrPrimary6);
+}
+
+.border-clrPrimary7 {
+  border-color: var(--clrPrimary7);
+}
+
+.border-clrPrimary8 {
+  border-color: var(--clrPrimary8);
+}
+
+.border-clrPrimary9 {
+  border-color: var(--clrPrimary9);
+}
+
+.border-clrPrimary10 {
+  border-color: var(--clrPrimary10);
+}
+
+/* Animação para carrossel horizontal */
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-horizontal {
+  animation: scroll-horizontal 20s linear infinite;
+}
+
+.animate-scroll-horizontal:hover {
+  animation-play-state: paused;
 }

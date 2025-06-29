@@ -1,21 +1,19 @@
 import Container from "@/components/global/Container";
 import CounterContent from "./CounterContent";
+
 function Counter({
-  totalArea,
   totalClients,
-  totalProjects,
+  approvedArea,
 }: {
-  totalArea: string;
   totalClients: string;
-  totalProjects: string;
+  approvedArea: string;
 }) {
   return (
-    <section className="h-[25vh] bg-clrPrimary4 content-center flex items-center">
+    <section className="hidden md:flex h-[30vh] bg-gradient-to-r from-clrPrimary4 to-clrPrimary5 content-center items-center">
       <Container className="flex w-[85vw] mx-auto">
         <CounterContent
-          totalArea={totalArea}
           totalClients={totalClients}
-          totalProjects={totalProjects}
+          approvedArea={approvedArea}
         />
       </Container>
     </section>

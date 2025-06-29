@@ -1,4 +1,4 @@
-import { SocialMedia } from "@prisma/client";
+import { SocialMedia } from "@/lib/types";
 import Link from "next/link";
 import Icons from "./Icons";
 
@@ -10,7 +10,7 @@ function SocialLinks({ socialLinks }: { socialLinks: SocialMedia[] }) {
         return (
           <Link key={item.id} href={item.url} target="_blank">
             <Icons
-              type={item.name}
+              name={item.name.toLowerCase()}
               className="w-6 h-6 text-clrPrimary3 hover:text-clrPrimary5"
             />
           </Link>

@@ -3,12 +3,24 @@ import { ProjectsClient } from "@/utils/actions";
 import Image from "next/image";
 
 function ProjectsContent({ projects }: { projects: ProjectsClient[] }) {
-  const projectsListDisplay: ProjectsClient[] = [];
+  // Verificar se projects existe e tem elementos
+  if (!projects || projects.length === 0) {
+    return (
+      <div className="section-center projects-center">
+        <p>Nenhum projeto encontrado.</p>
+      </div>
+    );
+  }
 
-  while (projectsListDisplay.length < 4) {
-    const randomIndex = Math.floor(Math.random() * projects.length);
-    projectsListDisplay.push(projects[randomIndex]);
-    projects.splice(randomIndex, 1);
+  // Criar cópia dos projetos para não modificar o array original
+  const projectsCopy = [...projects];
+  const projectsListDisplay: ProjectsClient[] = [];
+  const maxProjects = Math.min(4, projectsCopy.length);
+
+  while (projectsListDisplay.length < maxProjects && projectsCopy.length > 0) {
+    const randomIndex = Math.floor(Math.random() * projectsCopy.length);
+    projectsListDisplay.push(projectsCopy[randomIndex]);
+    projectsCopy.splice(randomIndex, 1);
   }
 
   return (
