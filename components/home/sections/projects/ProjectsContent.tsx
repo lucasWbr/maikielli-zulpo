@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ProjectsClient } from "@/utils/actions";
+import { ProjectsClient } from "@/lib/types";
 import Image from "next/image";
 
 function ProjectsContent({ projects }: { projects: ProjectsClient[] }) {

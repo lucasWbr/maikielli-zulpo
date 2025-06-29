@@ -2,7 +2,7 @@ import Underline from "@/components/global/Underline";
 import SectionTitle from "../components/SectionTitle";
 import SectionText from "../components/SectionText";
 import ProjectsContent from "./ProjectsContent";
-import { ProjectsClient } from "@/utils/actions";
+import { ProjectsClient } from "@/lib/types";
 import Container from "@/components/global/Container";
 import SectionButton from "../components/SectionButton";
 

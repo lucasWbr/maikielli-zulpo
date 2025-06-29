@@ -13,13 +13,11 @@ function CounterContent({
         number={totalClients}
         text="Clientes Satisfeitos"
         prefix=""
-        suffix=""
       />
       <CounterCards
         number={approvedArea}
         text="m² de Área Aprovada"
         prefix=""
-        suffix=""
         isArea={true}
       />
     </div>
