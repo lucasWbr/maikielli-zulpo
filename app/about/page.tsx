@@ -64,17 +64,24 @@ export default async function AboutPage() {
                   🎓 Formação Acadêmica
                 </h3>
                 <div className="space-y-4">
-                  {collaborator.education?.map((edu: any, index: number) => (
-                    <div key={index} className="bg-clrPrimary10 p-4 rounded-lg">
-                      <h4 className="font-bold text-clrPrimary1 text-lg mb-1">
-                        {edu.degree}
-                      </h4>
-                      <p className="text-clrPrimary3 mb-1">{edu.institution}</p>
-                      <p className="text-clrPrimary4 text-sm">
-                        Concluído em {edu.year}
-                      </p>
-                    </div>
-                  ))}
+                  {collaborator.education?.map(
+                    (edu: import("@/lib/types").Education, index: number) => (
+                      <div
+                        key={index}
+                        className="bg-clrPrimary10 p-4 rounded-lg"
+                      >
+                        <h4 className="font-bold text-clrPrimary1 text-lg mb-1">
+                          {edu.degree}
+                        </h4>
+                        <p className="text-clrPrimary3 mb-1">
+                          {edu.institution}
+                        </p>
+                        <p className="text-clrPrimary4 text-sm">
+                          Concluído em {edu.year}
+                        </p>
+                      </div>
+                    )
+                  )}
                 </div>
 
                 <h3 className="text-2xl font-semibold text-clrPrimary2 mb-6 mt-10">
@@ -82,7 +89,10 @@ export default async function AboutPage() {
                 </h3>
                 <div className="space-y-6">
                   {collaborator.experience_details?.map(
-                    (exp: any, index: number) => (
+                    (
+                      exp: import("@/lib/types").ExperienceDetail,
+                      index: number
+                    ) => (
                       <div
                         key={index}
                         className="border-l-4 border-clrPrimary5 pl-6 pb-6"

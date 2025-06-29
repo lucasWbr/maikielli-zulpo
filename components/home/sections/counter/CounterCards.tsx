@@ -7,13 +7,11 @@ function CounterCards({
   number,
   text,
   prefix = "",
-  suffix = "",
   isArea = false,
 }: {
   number: string;
   text: string;
   prefix?: string;
-  suffix?: string;
   isArea?: boolean;
 }) {
   // Handle decimal numbers for area
@@ -25,17 +23,6 @@ function CounterCards({
     triggerOnce: true,
     threshold: 0.1,
   });
-
-  // Format the display based on type
-  const formatNumberDisplay = (num: number): string => {
-    if (isArea) {
-      return new Intl.NumberFormat("pt-BR", {
-        minimumFractionDigits: 2,
-        maximumFractionDigits: 2,
-      }).format(num);
-    }
-    return num.toString();
-  };
 
   return (
     <Card

@@ -177,39 +177,117 @@
   "clients": [
     {
       "id": "client-1",
-      "name": "Construtora ABC",
-      "imageUrl": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=300&h=300&fit=crop&crop=center",
-      "imageAlt": "Logo Construtora ABC"
+      "name": "Galgo",
+      "imageUrl": "/Galgo.png",
+      "imageAlt": "Logo Galgo"
     },
     {
       "id": "client-2",
-      "name": "Indústria XYZ",
-      "imageUrl": "https://images.unsplash.com/photo-1541746972996-4e0b0f93e586?w=300&h=300&fit=crop&crop=center",
-      "imageAlt": "Logo Indústria XYZ"
+      "name": "Havan",
+      "imageUrl": "/Havan.png",
+      "imageAlt": "Logo Havan"
     },
     {
       "id": "client-3",
-      "name": "EcoTech Solutions",
-      "imageUrl": "https://images.unsplash.com/photo-1572021335469-31706a17aaef?w=300&h=300&fit=crop&crop=center",
-      "imageAlt": "Logo EcoTech Solutions"
+      "name": "Augustin",
+      "imageUrl": "/Augustin.png",
+      "imageAlt": "Logo Augustin"
     },
     {
       "id": "client-4",
-      "name": "Green Energy Corp",
-      "imageUrl": "https://images.unsplash.com/photo-1497436072909-f5e4be1707d1?w=300&h=300&fit=crop&crop=center",
-      "imageAlt": "Logo Green Energy Corp"
+      "name": "Bellenzier Pneus",
+      "imageUrl": "/Bellenzier-Pneus.png",
+      "imageAlt": "Logo Bellenzier Pneus"
     },
     {
       "id": "client-5",
-      "name": "SafeWork Ltda",
-      "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=300&fit=crop&crop=center",
-      "imageAlt": "Logo SafeWork Ltda"
+      "name": "Somel",
+      "imageUrl": "/Somel.png",
+      "imageAlt": "Logo Somel"
     },
     {
       "id": "client-6",
-      "name": "AmbientalTech",
-      "imageUrl": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=300&fit=crop&crop=center",
-      "imageAlt": "Logo AmbientalTech"
+      "name": "TecnoCar",
+      "imageUrl": "/TecnoCar.png",
+      "imageAlt": "Logo TecnoCar"
+    },
+    {
+      "id": "client-7",
+      "name": "Cotrijal",
+      "imageUrl": "/Cotrijal.png",
+      "imageAlt": "Logo Cotrijal"
+    },
+    {
+      "id": "client-8",
+      "name": "VitallTech",
+      "imageUrl": "/VitallTech.png",
+      "imageAlt": "Logo VitallTech"
+    },
+    {
+      "id": "client-9",
+      "name": "Cavol Pneus",
+      "imageUrl": "/Cavol-Pneus.png",
+      "imageAlt": "Logo Cavol Pneus"
+    },
+    {
+      "id": "client-10",
+      "name": "Alisul",
+      "imageUrl": "/Alisul.png",
+      "imageAlt": "Logo Alisul"
+    },
+    {
+      "id": "client-11",
+      "name": "Razera",
+      "imageUrl": "/Razera.png",
+      "imageAlt": "Logo Razera"
+    },
+    {
+      "id": "client-12",
+      "name": "Roos",
+      "imageUrl": "/Roos.png",
+      "imageAlt": "Logo Roos"
+    },
+    {
+      "id": "client-13",
+      "name": "BBS",
+      "imageUrl": "/BBS.png",
+      "imageAlt": "Logo BBS"
+    },
+    {
+      "id": "client-14",
+      "name": "Pesca e companhia RS",
+      "imageUrl": "/Pesca-e-companhia-RS.png",
+      "imageAlt": "Logo Pesca e companhia RS"
+    },
+    {
+      "id": "client-15",
+      "name": "Excellence",
+      "imageUrl": "/Excellence.png",
+      "imageAlt": "Logo Excellence"
+    },
+    {
+      "id": "client-16",
+      "name": "Áttollo Elevadores",
+      "imageUrl": "/Áttollo-Elevadores.png",
+      "imageAlt": "Logo Áttollo Elevadores"
+    },
+    {
+      "id": "client-17",
+      "name": "Granja Pinheiros",
+      "imageUrl": "/Granja-Pinheiros.png",
+      "imageAlt": "Logo Granja Pinheiros"
+    },
+    {
+      "id": "client-18",
+      "name": "Mecthor Mêcanica Automotiva",
+      "imageUrl": "/Mecthor-Mêcanica-Automotiva.png",
+      "imageAlt": "Logo Mecthor Mêcanica Automotiva"
+    },
+    {
+      "id": "client-19",
+      "name": "Mertz Agroindústria",
+      "imageUrl": "/Mertz-Agroindústria.png",
+      "imageAlt": "Logo Mertz Agroindústria"
     }
   ]
 }
